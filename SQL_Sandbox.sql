@@ -1,4 +1,4 @@
 SELECT title, author
 FROM BookTable.xlsx
-WHERE number < 1,000
+WHERE author LIKE 'McC%'
 LIMIT 10
